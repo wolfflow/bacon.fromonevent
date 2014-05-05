@@ -30,7 +30,13 @@
     "grunt-mocha": "~0.4.7",
     "browserify": "~3.43.0",
     "grunt-browserify": "~2.0.7",
-    "coffeeify": "~0.6.0"
+    "coffeeify": "~0.6.0",
+    "coffee-script": "~1.7.1",
+    "mocha-phantomjs": "~3.3.2",
+    "phantomjs": "~1.9.7-5"
+  },
+  "scripts": {
+    "test": "./run-tests"
   },
   "main": "dist/bacon.fromonevent.js"
 }

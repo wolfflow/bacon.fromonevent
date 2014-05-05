@@ -10,11 +10,14 @@
   <script src="../node_modules/baconjs/dist/Bacon.js"></script>
   <script src="../node_modules/mocha/mocha.js"></script>
   <script>mocha.setup('bdd')</script>
-  <script>
-    if (navigator.userAgent.indexOf('PhantomJS') < 0) {
-      mocha.run();
-    }
-  </script>
+  
   <script src="./bacon.fromonevent.spec.js"></script>
+  <script>
+  if (window.mochaPhantomJS) { 
+    mochaPhantomJS.run(); 
+  } else {
+    mocha.run();
+  }
+  </script>
 </body>
 </html>

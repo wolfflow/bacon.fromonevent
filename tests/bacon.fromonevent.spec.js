@@ -8817,7 +8817,7 @@ var expect, fromOnEvent;
 
 expect = require("chai").expect;
 
-fromOnEvent = require("../dist/bacon.fromonevent.js");
+fromOnEvent = require("../dist/bacon.fromonevent");
 
 describe("handler sub/unsub", function() {
   before(function() {
@@ -8847,4 +8847,4 @@ describe("handler sub/unsub", function() {
 });
 
 
-},{"../dist/bacon.fromonevent.js":1,"chai":6}]},{},[38])
+},{"../dist/bacon.fromonevent":1,"chai":6}]},{},[38])

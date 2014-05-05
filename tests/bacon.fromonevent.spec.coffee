@@ -1,6 +1,6 @@
 expect = require("chai").expect
 
-fromOnEvent = require "../dist/bacon.fromonevent.js"
+fromOnEvent = require "../dist/bacon.fromonevent"
 
 describe "handler sub/unsub", ->
   before ->
