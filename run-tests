@@ -1,3 +1,0 @@
-#!/bin/bash -e
-npm install
-node_modules/mocha-phantomjs/bin/mocha-phantomjs tests/index.html
