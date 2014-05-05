@@ -1,0 +1,10 @@
+.idea
+*.iml
+*.sublime*
+*.suo
+**/.DS_Store
+.DS_Store
+*.log
+node_modules*
+/components*
+/bower_components*

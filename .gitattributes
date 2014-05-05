@@ -1,0 +1,2 @@
+*.js -crlf
+*.coffee -crlf

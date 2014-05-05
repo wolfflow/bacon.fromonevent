@@ -1,0 +1,13 @@
+{
+  "name": "bacon.fromonevent",
+  "version": "0.0.1",
+   "main": "dist/bacon.fromonevent.js",
+   "ignore": [
+    "**/.*",
+    "./*.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "tests"
+  ]
+}

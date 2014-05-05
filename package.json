@@ -1,0 +1,36 @@
+{
+  "name": "bacon.fromonevent",
+  "version": "0.0.1",
+  "author": "Daniel K",
+  "license": "MIT",
+  "homepage": "https://github.com/wolfflow/bacon.fromonevent",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wolfflow/bacon.fromonevent"
+  },
+  "bugs": {
+    "url": "https://github.com/wolfflow/bacon.fromonevent/issues"
+  },
+  "keywords": [
+    "event",
+    "frp",
+    "bacon.js",
+    "reactive"
+  ],
+  "dependencies": {
+    "baconjs": "~0.7.10"
+  },
+  "devDependencies": {
+    "grunt-contrib-coffee": "~0.10.0",
+    "grunt": "~0.4.4",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-cli": "0.1.13",
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2",
+    "grunt-mocha": "~0.4.7",
+    "browserify": "~3.43.0",
+    "grunt-browserify": "~2.0.7",
+    "coffeeify": "~0.6.0"
+  },
+  "main": "dist/bacon.fromonevent.js"
+}
